@@ -4,6 +4,8 @@
 
 We are going to build a chat web app (similar to Slack) using the _MEAN_ stack and the `angular-fullstack` _Yeoman_ generator.
 
+![Screen Shot](https://raw.github.com/ATL-WDI-Exercises/channel-chat-code-along/master/images/channel-chat-app.png)
+
 ## Steps
 
 ### Step 0 - Install / Update Your Tools
