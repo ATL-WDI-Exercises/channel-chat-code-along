@@ -122,10 +122,10 @@ bower install --save animate-css       # Note: use animate-css instead of animat
 1e. Edit `client/app/app.js` and add the 'ngAnimate' module to our app module's dependencies:
 
 ```javascript
-angular.module('ripeTomatoesApp', [
-  'ripeTomatoesApp.auth',
-  'ripeTomatoesApp.admin',
-  'ripeTomatoesApp.constants',
+angular.module('channelChatApp', [
+  'channelChatApp.auth',
+  'channelChatApp.admin',
+  'channelChatApp.constants',
   'ngCookies',
   'ngResource',
   'ngSanitize',
@@ -210,7 +210,7 @@ module.exports = router;
 
 > NOTE: the `angular-fullstack` sub-generators are not generating the nice ES6 code that we got from the main generator (sigh). But it is okay to mix the old and the new - ES6 is fully backwards compatible.
 
-2d. Edit the `` and add the following:
+2d. Edit `server/api/message/message.controller.js` and add the following:
 
 ```javascript
 import Channel from '../channel/channel.model';     // add this line
