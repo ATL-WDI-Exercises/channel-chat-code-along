@@ -703,7 +703,7 @@ return channel.save();
 
 4c. Listen for the _New Message_ event in the client code
 
-Edit `` and set the content to the following:
+Edit `client/app/channels/channels.controller.js` and set the content to the following:
 
 ```javascript
 'use strict';
